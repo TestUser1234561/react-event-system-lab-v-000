@@ -7,9 +7,7 @@ class EyesOnMe extends React.Component {
 
   render() {
     return (
-      <button onFocus={this.focus} onBlur={this.blur}>
-        Eyes on me, please!
-      </button>
+      <button onFocus={this.focus} onBlur={this.blur}>Button</button>
     )
   }
 }
